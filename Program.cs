@@ -1,10 +1,10 @@
 ﻿/*start with total money
-#ask the user if they have more bills
-#if they do have more bills, continue asking how much each bill is
-#subtract the total of all bills from the total money
-#ask if they are going to save any money
-#subtract any savings from the total money
-#present the total money, savings and bills*/
+ask the user if they have more bills
+if they do have more bills, continue asking how much each bill is
+subtract the total of all bills from the total money
+ask if they are going to save any money
+subtract any savings from the total money
+present the total money, savings and bills*/
 using System;
 
 class Bills
