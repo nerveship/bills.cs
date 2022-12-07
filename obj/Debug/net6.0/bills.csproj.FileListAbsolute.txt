@@ -1,0 +1,15 @@
+F:\Creative Projects\programming\C#\bills\bin\Debug\net6.0\bills.exe
+F:\Creative Projects\programming\C#\bills\bin\Debug\net6.0\bills.deps.json
+F:\Creative Projects\programming\C#\bills\bin\Debug\net6.0\bills.runtimeconfig.json
+F:\Creative Projects\programming\C#\bills\bin\Debug\net6.0\bills.dll
+F:\Creative Projects\programming\C#\bills\bin\Debug\net6.0\bills.pdb
+F:\Creative Projects\programming\C#\bills\obj\Debug\net6.0\bills.csproj.AssemblyReference.cache
+F:\Creative Projects\programming\C#\bills\obj\Debug\net6.0\bills.GeneratedMSBuildEditorConfig.editorconfig
+F:\Creative Projects\programming\C#\bills\obj\Debug\net6.0\bills.AssemblyInfoInputs.cache
+F:\Creative Projects\programming\C#\bills\obj\Debug\net6.0\bills.AssemblyInfo.cs
+F:\Creative Projects\programming\C#\bills\obj\Debug\net6.0\bills.csproj.CoreCompileInputs.cache
+F:\Creative Projects\programming\C#\bills\obj\Debug\net6.0\bills.dll
+F:\Creative Projects\programming\C#\bills\obj\Debug\net6.0\refint\bills.dll
+F:\Creative Projects\programming\C#\bills\obj\Debug\net6.0\bills.pdb
+F:\Creative Projects\programming\C#\bills\obj\Debug\net6.0\bills.genruntimeconfig.cache
+F:\Creative Projects\programming\C#\bills\obj\Debug\net6.0\ref\bills.dll
