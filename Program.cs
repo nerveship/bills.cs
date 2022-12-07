@@ -13,8 +13,8 @@ class Bills
     {
         double starting_money = 512.71;
         Console.WriteLine("Do you have any bills?");
-        string bill_answer = (Console.ReadLine());
-        if (bill_answer.ToLower() == "yes");
+        string userResponse = Console.ReadLine();
+        if (userResponse == "yes")
         {
             var bills = new List<double>();
             while (true)
@@ -26,8 +26,8 @@ class Bills
                 {
                     break;
                 }
-            }   
-
+            }  
+        
             Console.WriteLine("Will you be saving anything this month?");
             string save_answer = (Console.ReadLine());
             double savings = 0;
@@ -42,6 +42,10 @@ class Bills
             Console.WriteLine($"Your bills come to £{Math.Round(bill_total, 2)}");
             Console.WriteLine($"Your savings come to £{Math.Round(savings, 2)}");
             Console.WriteLine($"Your spending money comes to £{Math.Round(final_total, 2)}");
+        } 
+        else 
+        {
+            Console.WriteLine("What do you mean you don't have bills?");
         }
     }
 }
