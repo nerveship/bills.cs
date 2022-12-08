@@ -11,22 +11,27 @@ class Bills
     static void Main()
     {
         float starting_money = 512.71f;
+
         Console.WriteLine("How many bills do you have?");
         int userResponse = (Convert.ToInt32(Console.ReadLine()));
+
         var bills = new List<float>();
         for (int i = 0; i < userResponse; i++)
         {
             Console.WriteLine($"Bill #{i + 1}: ");
             bills.Add(Convert.ToInt32(Console.ReadLine()));
         }
+
         Console.WriteLine("Will you be saving anything this month?");
         string save_answer = (Console.ReadLine());
         float savings = 0f;
+
         if (save_answer.ToLower() == "y")
         {
             Console.WriteLine("How much are you saving this month?");
             savings = (Convert.ToInt32(Console.ReadLine()));
         }
+        
         float bill_total = bills.Sum();
         float final_total = starting_money - bill_total - savings;
 
