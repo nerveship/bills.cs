@@ -10,25 +10,25 @@ class Bills
 {
     static void Main()
     {
-        double starting_money = 512.71;
+        float starting_money = 512.71f;
         Console.WriteLine("How many bills do you have?");
         int userResponse = (Convert.ToInt32(Console.ReadLine()));
-        var bills = new List<double>();
+        var bills = new List<float>();
         for (int i = 0; i < userResponse; i++)
         {
             Console.WriteLine($"Bill #{i + 1}: ");
-            bills.Add(Convert.ToDouble(Console.ReadLine()));
+            bills.Add(Convert.ToInt32(Console.ReadLine()));
         }
         Console.WriteLine("Will you be saving anything this month?");
         string save_answer = (Console.ReadLine());
-        double savings = 0;
+        float savings = 0f;
         if (save_answer.ToLower() == "y")
         {
             Console.WriteLine("How much are you saving this month?");
             savings = (Convert.ToInt32(Console.ReadLine()));
         }
-        double bill_total = bills.Sum();
-        double final_total = starting_money - bill_total - savings;
+        float bill_total = bills.Sum();
+        float final_total = starting_money - bill_total - savings;
 
         Console.WriteLine($"Your bills come to £{Math.Round(bill_total, 2)}");
         Console.WriteLine($"Your savings come to £{Math.Round(savings, 2)}");
