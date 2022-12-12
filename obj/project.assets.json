@@ -13,19 +13,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Creative Projects\\programming\\C#\\bills\\bills.csproj",
+      "projectUniqueName": "F:\\Creative Projects\\programming\\C#\\bills.cs\\bills.csproj",
       "projectName": "bills",
-      "projectPath": "F:\\Creative Projects\\programming\\C#\\bills\\bills.csproj",
+      "projectPath": "F:\\Creative Projects\\programming\\C#\\bills.cs\\bills.csproj",
       "packagesPath": "C:\\Users\\johns\\.nuget\\packages\\",
-      "outputPath": "F:\\Creative Projects\\programming\\C#\\bills\\obj\\",
+      "outputPath": "F:\\Creative Projects\\programming\\C#\\bills.cs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\johns\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\johns\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
