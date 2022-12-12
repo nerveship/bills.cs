@@ -12,9 +12,12 @@ class Bills
     {
         float starting_money = 512.71f;
 
+        //asks user how many bills they have and converts their response to Int32
         Console.WriteLine("How many bills do you have?");
         int userResponse = (Convert.ToInt32(Console.ReadLine()));
 
+        /*creates a new list of floats and asks the user how much each individual bill costs
+        and adding it to the list each time the user inputs a number*/
         var bills = new List<float>();
         for (int i = 0; i < userResponse; i++)
         {
@@ -23,14 +26,7 @@ class Bills
         }
 
         Console.WriteLine("Will you be saving anything this month?");
-        string save_answer = (Console.ReadLine());
-        float savings = 0f;
-
-        if (save_answer.ToLower() == "y")
-        {
-            Console.WriteLine("How much are you saving this month?");
-            savings = (Convert.ToInt32(Console.ReadLine()));
-        }
+        float savings = Convert.ToInt32(Console.ReadLine());
         
         float bill_total = bills.Sum();
         float final_total = starting_money - bill_total - savings;
